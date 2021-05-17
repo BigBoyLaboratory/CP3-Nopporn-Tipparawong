@@ -4,7 +4,7 @@ priceList = []
 def sumPrice ():
     sumPrice = 0
     for i in range(len(priceList)):
-        sumPrice += priceList[i]
+        sumPrice += int(priceList[i])
     print("Total price: ", sumPrice)
 
 def showBill():
@@ -17,7 +17,7 @@ while True:
     if menuName.lower() == "exit":
         break
     else:
-        menuPrice = int(input("Price: "))
+        menuPrice = (input("Price: "))
         menuList.append(menuName)
         priceList.append(menuPrice)
 
