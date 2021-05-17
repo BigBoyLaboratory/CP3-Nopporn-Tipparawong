@@ -2,8 +2,8 @@ menuList = []
 
 def sumPrice ():
     sumPrice = 0
-    for i in range(len()):
-        sumPrice += int([i])
+    for i in range(len(menuList)):
+        sumPrice += int(menuList[i][1])
     print("Total price: ", sumPrice)
 
 def showBill():
@@ -19,6 +19,5 @@ while True:
         menuPrice = input("Price: ")
         menuList.append([menuName, menuPrice])
 
-#showBill()
-#sumPrice()
-print(menuList)
+showBill()
+sumPrice()
