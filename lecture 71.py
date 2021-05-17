@@ -21,6 +21,5 @@ while True:
         menuList.append(menuName)
         priceList.append(menuPrice)
 
-print(menuList, priceList)
 showBill()
 sumPrice()
