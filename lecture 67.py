@@ -1,0 +1,6 @@
+tuple1 = (1,200,3,4,10)
+list1 = (1,200,3,4,10)
+print(len(tuple1))
+print(max(list1), min(list1))
+print(tuple(list1))
+print(tuple1.index(200))
